@@ -36,7 +36,7 @@ function Checkout() {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/orders", {
+      await axios.post("https://furniture-backend-s9j3.onrender.com/api/orders", {
         customer: form,
         items: cart,
         total,
