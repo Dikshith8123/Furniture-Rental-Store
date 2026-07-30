@@ -13,7 +13,7 @@ function ProductDetails() {
   const fetchProduct = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/products/${id}`
+        `https://furniture-backend-s9j3.onrender.com/api/orders}`
       );
       setProduct(res.data);
     } catch (err) {

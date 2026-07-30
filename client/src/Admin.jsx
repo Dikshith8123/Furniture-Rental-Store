@@ -6,7 +6,7 @@ function Admin() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/orders")
+      .get("http://furniture-backend-s9j3.onrender.com/api/orders")
       .then((res) => setOrders(res.data))
       .catch((err) => console.log(err));
   }, []);

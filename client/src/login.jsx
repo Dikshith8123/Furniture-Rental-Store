@@ -22,7 +22,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://furniture-backend-s9j3.onrender.com/api/orders",
         user
       );
 
