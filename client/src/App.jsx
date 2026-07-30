@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
-import Furniture from "./Furniture";
+import Furniture from "./Furniture.jsx";
 import About from "./About";
 import Contact from "./Contact";
 import Login from "./login";
