@@ -11,7 +11,7 @@ function Furniture() {
 
   const getProducts = async () => {
     try {
-      const res = await axios.get("http://YOUR-BACKEND.onrender.com/api/products");
+      const res = await axios.get("http://furniture-backend-s9j3.onrender.com/api/products");
       setProducts(res.data);
     } catch (error) {
       console.log(error);
